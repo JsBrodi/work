@@ -1,0 +1,63 @@
+.body{
+  margin: 0 auto;
+  padding: 0;
+  width: 1160px;
+  background-color:#ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  line-height: 36px;
+  box-sizing: border-box;
+   
+  
+}
+
+.main-header{
+    width: 1160px;
+    margin: 0 auto;
+    background-image: url(../img/background-yellow.png);
+}
+.col-xl-3{
+    min-height: 45px;
+    margin-top: 20px;
+   
+}
+.col-xl-9{
+    min-height: 45px;
+    margin-top: 20px;
+    
+}
+
+.navigation{
+    width: 1160px;
+    margin: 0 auto;
+    background-color: #f7e296;
+    min-height: 195px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px){
+    .container-footer {
+        width:660px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+   
+    
+    }
+   @media screen and (max-width:480px){
+    .container-footer {
+        display: none;
+    } 
+
